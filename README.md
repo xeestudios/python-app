@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### arn:aws:lambda:us-east-1:716452880079:function:HelloWorldFunction
+### Secret Access Key - A6+Q9f5BH6E/RYT3llZbAfOMIkDtLzIaJm/NqCcU
+### Access Key Id -  AKIA2NT7LL3HZP5I2WHS
