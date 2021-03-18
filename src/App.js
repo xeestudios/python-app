@@ -7,7 +7,12 @@ class App extends Component {
     axios
       .post(api, data, {
         headers: {
-          'Authorization': `x-api-key B1eKIV3HbeNjglcpVjEu3gMa0BZYCXs4XcvpnMI5`
+          'Authorization': `x-api-key B1eKIV3HbeNjglcpVjEu3gMa0BZYCXs4XcvpnMI5`,
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Accept':'*/*',
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "GET, POST, PATCH, PUT, DELETE, OPTIONS",
+          "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token, Authorization, Accept,charset,boundary,Content-Length"
         },
       })
       .then((response) => {
