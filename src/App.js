@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 class App extends Component {
   componentDidMount() {
-    const api = 'https://t7agkz0332.execute-api.us-east-2.amazonaws.com/beta/transactions?transactionId=44&type=PAYLOAD&amount=22';
+    const api = 'https://nmdm55ftxi.execute-api.us-east-2.amazonaws.com/default/myPythonFunc';
     const data = { "transactionId" : "33", "type" : "Test", "amount" : "100" };
     axios
       .post(api, data, {
@@ -26,3 +26,5 @@ class App extends Component {
   }
 }
 export default App;
+
+//myPythonFunc
