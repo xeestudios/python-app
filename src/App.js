@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 class App extends Component {
   componentDidMount() {
-    const api = 'https://nmdm55ftxi.execute-api.us-east-2.amazonaws.com/beta/myPythonFunc';
+    const api = 'https://5w5526zj8a.execute-api.us-east-2.amazonaws.com/prod';
     const data = { "transactionId" : "33", "type" : "Test", "amount" : "100" };
     axios
       .post(api, data, {
